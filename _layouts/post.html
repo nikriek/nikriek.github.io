@@ -1,0 +1,17 @@
+---
+layout: default
+---
+<article class="post card" itemscope itemtype="http://schema.org/BlogPosting">
+  {% if page.image %}
+    <div class="card-header-image-wrapper">
+      <img class="card-img-top" src="{{ page.image }}" alt="Header image">
+    </div>
+  {% endif %}
+  <div class="card-block">
+    <h1 class="card-title" itemprop="name headline">{{ page.title }}</h1>
+    <p class="card-text"><small class="text-muted"><time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date_to_string }}</time>{% if page.author %} • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">{{ page.author }}</span></span>{% endif %}</small></p>
+    <div class="card-text" itemprop="articleBody">
+      {{ content }}
+    </div>
+  </div>
+</article>
