@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Dubhack – Hackathon @ Dubsmash"
+title:  "#dubhack16 – Hackathon @ Dubsmash"
 date:   2016-05-23 21:27:46 +0200
 tags: hack tech event
 image: https://blog.dubsmash.com/wp-content/uploads/2016/05/dubhack7.jpg
