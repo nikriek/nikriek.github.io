@@ -3,7 +3,7 @@ layout: post
 title:  "HackHPI"
 date:   2016-05-10 21:27:46 +0200
 tags: hack tech event
-image: https://scontent.ftxl1-1.fna.fbcdn.net/v/t1.0-9/13151631_718561004952212_3925032571128556469_n.png?oh=0886c67c48f34528647805b53af80f2f&oe=57A60D4B
+image: /images/hackhpi.jpg
 link: http://hackhpi.org
 summary: We host our first hackathon at HPI focussing on building applications using Data Analytics and Machine Learning.   
 ---
