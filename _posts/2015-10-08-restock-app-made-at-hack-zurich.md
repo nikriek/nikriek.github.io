@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Restock app made at HackLondon"
+title: "Restock app made at HackZurich"
 date: 2015-10-08 21:27:46 +0200
 tags: hack tech event
 image: /images/restock.png
