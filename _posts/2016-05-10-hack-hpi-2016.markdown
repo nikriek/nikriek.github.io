@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "HackHPI"
+title:  "HackHPI 2016"
 date:   2016-05-10 21:27:46 +0200
 tags: hack tech event
 image: /images/hackhpi.jpg
