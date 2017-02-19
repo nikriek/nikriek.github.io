@@ -18,9 +18,9 @@ layout: default
             </small>
         </p>
         {% if post.link %}
-            <a href="{{ post.link }}" class="btn btn-primary">Open ↗️️</a>
+            <a href="{{ post.link }}" class="btn btn-custom btn-block">Open ↗️️</a>
         {% else %}
-            <a href="{{ post.url | prepend: site.baseurl }}" class="btn btn-primary">Open ➡️️</a>
+            <a href="{{ post.url | prepend: site.baseurl }}" class="btn btn-custom btn-block">Open ➡️️</a>
         {% endif %}
       </div>
     </div>
