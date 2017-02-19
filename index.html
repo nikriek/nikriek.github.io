@@ -16,9 +16,9 @@ layout: default
             #{{ tag }}
             {% endfor%} |
             {% if post.link %}
-              <a href="{{ post.link }}">More →</a>
+              <a href="{{ post.link }}">Open ↗️️</a>
             {% else %}
-              <a href="{{ post.url | prepend: site.baseurl }}">More →</a>
+              <a href="{{ post.url | prepend: site.baseurl }}">Open ➡️️</a>
             {% endif %}
             </small>
         </p>
