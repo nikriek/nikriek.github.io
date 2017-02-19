@@ -49,3 +49,9 @@ a {
 .text-center {
   text-align: center;
 }
+
+.btn-custom {
+    color: #fff !important;
+    background-color: $primary-color;
+    border-color: $primary-color;
+}
