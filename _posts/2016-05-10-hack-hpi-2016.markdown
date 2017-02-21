@@ -4,6 +4,6 @@ title:  "HackHPI 2016"
 date:   2016-05-10 21:27:46 +0200
 tags: hack tech event
 image: /images/hackhpi.jpg
-link: http://hackhpi.org
+link: http://2016.hackhpi.org
 summary: We host our first hackathon at HPI focussing on building applications using Data Analytics and Machine Learning.   
 ---
