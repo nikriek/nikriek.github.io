@@ -1,0 +1,9 @@
+---
+layout: post
+title:  "HackHPI 2017: Health Tech"
+date:   2017-02-21 21:27:46 +0200
+tags: hack tech event
+image: /images/hackhpi2017.jpg
+link: http://hackhpi.org
+summary: Second edition of HackHPI: This year it's all about Digital Health.   
+---
