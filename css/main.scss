@@ -53,5 +53,5 @@ a {
 .btn-custom {
     color: $primary-color !important;
     background-color: #fff;
-    border-color: $primary-color;
+    border-color: $primary-color !important;
 }
