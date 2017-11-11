@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Joining Doctors for Madagascar as first Software Engineer"
+title:  "Joining <i>Doctors for Madagascar</i> as first Software Engineer"
 date:   2017-11-11 21:27:46 +0200
 tags: job tech
 link: http://www.doctorsformadagascar.com
