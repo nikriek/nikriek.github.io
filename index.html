@@ -5,7 +5,10 @@ layout: default
     {% for post in paginator.posts %}
     <div class="card">
       {% if post.image %}
-        <img class="card-img-top" src="{{ post.image }}" alt="Card image cap">
+        <img class="card-img-top" src="{{ post.image }}" 
+        {% if post.image-padding %}
+             style="padding: {{ post.image-padding }};">
+        {% endif %}
       {% endif %}
       <div class="card-block">
         <h4 class="card-title">{{ post.title }}</h4>
