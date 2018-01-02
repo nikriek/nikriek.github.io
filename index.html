@@ -7,8 +7,9 @@ layout: default
       {% if post.image %}
         <img class="card-img-top" src="{{ post.image }}" 
         {% if post.image-padding %}
-             style="padding: {{ post.image-padding }};">
+             style="padding: {{ post.image-padding }};"
         {% endif %}
+        >
       {% endif %}
       <div class="card-block">
         <h4 class="card-title">{{ post.title }}</h4>
