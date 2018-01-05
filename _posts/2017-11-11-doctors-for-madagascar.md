@@ -6,6 +6,6 @@ tags: job tech
 link: http://www.doctorsformadagascar.com
 image: http://www.aerzte-fuer-madagaskar.de/wp-content/uploads/2016/03/logo-EN.png
 image-padding: 1rem
-summary: Doctors for Madagascar was founded to improve healthcare in Madagascar by investing in staff training, hospital infrastructure, equipment and patient care.
+summary: Doctors for Madagascar was founded to improve healthcare in Madagascar by investing in staff training, hospital infrastructure, equipment and patient care. I help them building a mobile payment infrastructure.
 ---
 
