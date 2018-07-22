@@ -3,7 +3,7 @@ layout: post
 title:  "Sign requests using an NGINX reverse proxy"
 date:   2018-07-22 12:27:46 +0200
 tags: tech
-summary: "Signing requests with NGINX requires custom configuration."
+summary: "NGINX is a fantastic tool for various use cases such as Load Balancing, information hiding etc. Sometimes, more complex setups require custom configurations. In our case, NGINX should act a reverse proxy in a private network and sign incoming requests from a trusted source."
 ---
 
 NGINX is a fantastic tool for various use cases such as Load Balancing, information hiding etc. Sometimes, more complex setups require custom configurations. In our case, NGINX should act a reverse proxy in a private network and 
