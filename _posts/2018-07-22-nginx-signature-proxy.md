@@ -3,10 +3,10 @@ layout: post
 title:  "Sign requests using an NGINX reverse proxy"
 date:   2018-07-22 12:27:46 +0200
 tags: tech
-summary: "NGINX is a fantastic tool for various use cases such as Load Balancing, proxying etc. Sometimes, more complex setups require custom configurations. In our case, NGINX should act a reverse proxy in a private network and sign incoming requests from a trusted source."
+summary: "NGINX is a fantastic tool for various use cases such as Load Balancing, proxying etc. Sometimes, complex use cases require custom configurations. In our case, NGINX should act a reverse proxy in a private network and sign incoming requests from a trusted source."
 ---
 
-NGINX is a fantastic tool for various use cases such as Load Balancing, proxying etc. Sometimes, more complex setups require custom configurations. In our case, NGINX should act a reverse proxy in a private network and 
+NGINX is a fantastic tool for various use cases such as Load Balancing, proxying etc. Sometimes, complex use cases require custom configurations. In our case, NGINX should act a reverse proxy in a private network and 
 sign incoming requests from a trusted source. The upstream API has HMAC based authentication provided by the [Rails API Auth Gem](https://github.com/mgomes/api_auth).
 It's heavily inspired by AWS V4 signature based authentication.
 
