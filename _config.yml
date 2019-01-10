@@ -2,7 +2,7 @@ title: Niklas Riekenbrauck
 email: nikriek@gmail.com
 description: "Curated microblog & portfolio of Niklas Riekenbrauck"
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://www.nikriek.de" # the base hostname & protocol for your site
+url: "https://www.nikriek.de" # the base hostname & protocol for your site
 twitter_username: nikriek
 github_username: nikriek
 
