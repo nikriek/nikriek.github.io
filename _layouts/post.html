@@ -6,15 +6,23 @@ layout: default
     <div class="card-header-image-wrapper">
       <img class="card-img-top" src="{{ page.image }}" alt="Header image">
     </div>
+    <div class="card-img-overlay">
+      <h1 class="card-title" itemprop="name headline">{{ page.title }}</h1>
+       <p class="card-text"><small class="text-muted"><time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date_to_string }}</time>{% if page.author %} • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">{{ page.author }}</span></span>{% endif %}</small></p>
+    </div>
   {% endif %}
-  <div class="card-block">
-    <h1 class="card-title" itemprop="name headline">{{ page.title }}</h1>
-    <p class="card-text"><small class="text-muted"><time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date_to_string }}</time>{% if page.author %} • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">{{ page.author }}</span></span>{% endif %}</small></p>
+  
+  <div class="card-body">
+    {% unless page.image %}
+      <h1 class="card-title" itemprop="name headline">{{ page.title }}</h1>
+       <p class="card-text"><small class="text-muted"><time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date_to_string }}</time>{% if page.author %} • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">{{ page.author }}</span></span>{% endif %}</small></p>
+    {% endunless %}
+
     <div class="card-text" itemprop="articleBody">
       {{ content }}
     </div>
   </div>
-  <div class="card-block">
+  <div class="card-body">
 
     <div id="disqus_thread"></div>
     <script>

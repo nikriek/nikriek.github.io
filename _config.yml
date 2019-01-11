@@ -1,6 +1,6 @@
 title: Niklas Riekenbrauck
 email: nikriek@gmail.com
-description: "Curated microblog & portfolio of Niklas Riekenbrauck"
+description: "Blog & portfolio of a hacker"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://www.nikriek.de" # the base hostname & protocol for your site
 twitter_username: nikriek
@@ -11,6 +11,7 @@ markdown: kramdown
 exclude:
   - "bower_components"
   - "bower.json"
-gems:
+plugins:
   - jekyll-paginate
-paginate: 30
+  - jekyll-sitemap
+paginate: 40
