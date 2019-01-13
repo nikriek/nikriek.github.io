@@ -3,7 +3,7 @@ layout: default
 ---
   <div class="card-columns">
     {% for post in paginator.posts %}
-    <div class="card">
+    <div class="card shadow mb-4">
       {% if post.image %}
         <img class="card-img-top" src="{{ post.image }}" 
         {% if post.image-padding %}
